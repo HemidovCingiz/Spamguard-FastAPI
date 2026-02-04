@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>SPAMGUARD v1.0</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1>SPAMGUARD <span>v1.0</span></h1>
+            <p class="subtitle">Spam Detection System (Naive Bayes)</p>
+            <div class="status">Status: <strong>Ready to Analyze</strong></div>
+        </header>
+
+        <main>
+            <textarea id="messageInput" placeholder="Enter message to analyze..."></textarea>
+
+            <div class="actions">
+                <button id="analyzeBtn">Analyze Message</button>
+            </div>
+
+            <div class="examples">
+                <h3>Example Messages</h3>
+                <button class="example">FREE money now!</button>
+                <button class="example">Hello, how are you?</button>
+                <button class="example">URGENT: Click here to win $1000!!!</button>
+            </div>
+
+            <div id="result" class="result hidden">
+                <h2 id="classification"></h2>
+                <p id="confidence"></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2026 SPAMGUARD · Naive Bayes Text Classifier</p>
+        </footer>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

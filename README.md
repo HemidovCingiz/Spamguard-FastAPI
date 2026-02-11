@@ -30,11 +30,3 @@ Designed to analyze messages in real time and determine whether they are spam or
 - CSS
 - Vanilla JavaScript
 
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/HemidovCingiz/Spamguard-FastAPI.git
-cd spam_detector

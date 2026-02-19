@@ -22,7 +22,7 @@ Designed to analyze messages in real time and determine whether they are spam or
 
 **Backend**
 - FastAPI
-- Python 3.14
+- Python 3.11
 - Uvicorn
 
 **Frontend**
